@@ -37,7 +37,7 @@ if(urlParams.has("day")){//from querystring
 
 myDay = parseInt(myDay);//must change to integer for switch 
 
-myDay = 6;//test only remove this
+//myDay = 6;//test only remove this
 
 switch(myDay){
 
