@@ -37,13 +37,25 @@ if(urlParams.has("day")){//from querystring
 
 myDay = parseInt(myDay);//must change to integer for switch 
 
-//myDay = 3;//test only remove this
+myDay = 6;//test only remove this
 
 switch(myDay){
 
 
     case 0:
         today = "Sunday";
+
+
+        coffee = {
+            name: "Caramel Latte",
+            pic: "images/caramel-latte.jpg",
+            alt: "A pic of a caramel latte",
+            color: "orange",
+            day: "Sunday",
+            desc: `I like duh caramel latte!`
+        };
+
+
     break;
 
     case 1:
@@ -65,6 +77,18 @@ switch(myDay){
 
     case 2:
         today = "Tuesday";
+
+
+        coffee = {
+            name: "Drip Coffee",
+            pic: "images/drip.jpg",
+            alt: "A pic of drip coffee",
+            color: "yellow",
+            day: "Tuesday",
+            desc: `I need drip coffee!`
+        };
+
+
     break;
    
     case 3:
@@ -78,6 +102,54 @@ switch(myDay){
             color: "pink",
             day: "Wednesday",
             desc: `I like me some bubble tea!`
+        };
+
+
+    break;
+
+    case 4:
+        today = "Thursday";
+
+
+        coffee = {
+            name: "Frappachino",
+            pic: "images/frappaccino.jpg",
+            alt: "A pic of a frappaccino",
+            color: "purple",
+            day: "Thursday",
+            desc: `I like a Frappaccino!`
+        };
+
+
+    break;
+
+    case 5:
+        today = "Friday";
+
+
+        coffee = {
+            name: "Frappachino",
+            pic: "images/mocha.jpg",
+            alt: "A pic of a mocha drink",
+            color: "blue",
+            day: "Friday",
+            desc: `I love mochas!`
+        };
+
+
+    break;
+
+    case 6:
+        today = "Saturday";
+
+
+        coffee = {
+            name: "Pumpkin Spice Latte",
+            pic: "images/pumpkin-spice-latte.jpg",
+            alt: "A pic of a pumpkin spice latte",
+            color: "brown",
+            day: "Saturday",
+            desc: `I love Pumpkin Spice Lattes!`
         };
 
 
